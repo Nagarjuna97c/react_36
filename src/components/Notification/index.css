@@ -1,0 +1,50 @@
+.notification {
+  width: 600px;
+  min-height: 140px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 50px 1fr 50px;
+  align-items: start;
+  column-gap: 20px;
+  border: 1px solid #e5e5e5;
+  border-radius: 8px;
+}
+
+.icon {
+  font-size: 32px;
+}
+
+.green-item {
+  color: #2dca73;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.item-heading {
+  font-size: 27px;
+}
+
+.para {
+  font-size: 24px;
+  color: #64748b;
+}
+
+.close {
+  align-self: center;
+}
+
+.red-item {
+  color: #ff0b37;
+}
+
+.yellow-item {
+  color: #ffb800;
+}
+
+.blue-item {
+  color: #0f81e0;
+}
